@@ -1,0 +1,9 @@
+#Compose 使用的三个步骤：
+#使用 Dockerfile 定义应用程序的环境。
+#使用 docker-compose.yml 定义构成应用程序的服务，这样它们可以在隔离环境中一起运行。
+#最后，执行 docker-compose up 命令来启动并运行整个应用程序。
+
+#docker-compose --version 测试docker-compose是否安装
+
+#下载compose稳定版本
+# sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
